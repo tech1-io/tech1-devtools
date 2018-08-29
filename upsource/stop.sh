@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
 
-APP_NAME=portainer
+APP_NAME=forcelate-upsource
 
 docker stop ${APP_NAME}
