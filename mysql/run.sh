@@ -2,7 +2,7 @@
 
 APP_NAME=forcelate-mysql
 TAG=5.7.24
-MYSQL_ROOT_PASSWORD=my-mysql-password
+MYSQL_ROOT_PASSWORD=root
 
 docker run -d --rm --name ${APP_NAME} \
     -e MYSQL_ROOT_PASSWORD=${MYSQL_ROOT_PASSWORD} \
