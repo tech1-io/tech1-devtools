@@ -3,6 +3,7 @@ DevTools, Scripts, Docker etc.
 
 ### Scripts
 * Mongodb => 27017
+* MySQL => 3306
 * Portainer => 9001
 * Sonarqube => 9000 (sonarqube, postgres)
 * Upsource => 8080
