@@ -8,10 +8,10 @@ echo "======================="
 #slack-cleaner --token $SLACK_TOKEN --file --user "*"
 
 # clear messages: general
-#slack-cleaner --token $TOKEN --message --channel general --user "*" 
+#slack-cleaner --token $SLACK_TOKEN --message --channel general --user "*" 
 
 # clear messages: teams
-slack-cleaner --token $SLACK_TOKEN --message --group 'team-medikey' --user "*" 
+slack-cleaner --token $SLACK_TOKEN --message --group 'team-abc' --user "*" 
 
 # clear messages: direct
 #slack-cleaner --token $TOKEN --message --direct $USER --user "*" 
