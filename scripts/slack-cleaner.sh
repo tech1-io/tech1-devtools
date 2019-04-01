@@ -1,7 +1,7 @@
 echo "======================="
 echo "Started"
-echo "Slack Token: " + $SLACK_TOKEN
-echo "Slack User: " + $SLACK_USER
+echo "Slack Token: $SLACK_TOKEN"
+echo "Slack User: $SLACK_USER"
 echo "======================="
 
 # clear files
@@ -11,10 +11,10 @@ echo "======================="
 #slack-cleaner --token $SLACK_TOKEN --message --channel general --user "*" 
 
 # clear messages: teams
-slack-cleaner --token $SLACK_TOKEN --message --group 'team-abc' --user "*" 
+#slack-cleaner --token $SLACK_TOKEN --message --group 'team-abc' --user "*" 
 
 # clear messages: direct
-#slack-cleaner --token $TOKEN --message --direct $USER --user "*" 
+slack-cleaner --token $SLACK_TOKEN --message --direct $SLACK_USER --user "*" 
 
 echo "======================="
 echo "Completed"
