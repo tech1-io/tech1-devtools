@@ -19,19 +19,23 @@ do
 	echo "======================="
 	echo "Cleanup, group = #$item: [completed]"
 	echo "======================="
+
+	read -p "Press enter to continue"
 done
 
 echo "===================================="
 echo "Cleanup, group = #general: [started]"
 echo "===================================="
-slack-cleaner --token $SLACK_TOKEN --message --channel general --user "*" 
+#slack-cleaner --token $SLACK_TOKEN --message --channel general --user "*" 
 echo "===================================="
 echo "Cleanup, group = #general: [perform]"
 echo "===================================="
-slack-cleaner --token $SLACK_TOKEN --message --channel general --user "*" --rate 1 --perform
+#slack-cleaner --token $SLACK_TOKEN --message --channel general --user "*" --rate 1 --perform
 echo "===================================="
 echo "Cleanup, group = #general: [completed]"
 echo "===================================="
+
+read -p "Press enter to continue"
 
 echo "====================" 
 echo "Cleanup: [completed]"

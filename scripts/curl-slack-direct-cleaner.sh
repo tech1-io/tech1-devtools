@@ -17,7 +17,7 @@ do
 	echo "======================="
 	echo "Cleanup, direct = #$item: [perform]"
 	echo "======================="
-	slack-cleaner --token $SLACK_TOKEN --message --direct "$item" --user "*" --rate 1 --perform
+	slack-cleaner --token $SLACK_TOKEN --message --direct "$item" --user "*" --rate 2 --perform
 	echo "======================="
 	echo "Cleanup, direct = #$item: [completed]"
 	echo "======================="
