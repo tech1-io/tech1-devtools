@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
 
-APP_NAME=forcelate-mongodb
+APP_NAME=tech1-mongodb
 
 docker stop ${APP_NAME}

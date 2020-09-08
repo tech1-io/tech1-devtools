@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-APP_NAME=forcelate-mongodb
+APP_NAME=tech1-mongodb
 TAG=4.1-xenial
 
 VOLUME_PATH=$(pwd)/volume-mongodb

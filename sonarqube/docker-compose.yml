@@ -4,7 +4,7 @@ services:
   sonarqube:
     image: sonarqube:alpine
     restart: always
-    container_name: forcelate-sonarqube
+    container_name: tech1-sonarqube
     ports:
       - "9000:9000"
     networks:
@@ -19,7 +19,7 @@ services:
   db:
     image: postgres:alpine
     restart: always
-    container_name: forcelate-sonarqube-postgres
+    container_name: tech1-sonarqube-postgres
     networks:
       - sonarnet
     environment:

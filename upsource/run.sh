@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-APP_NAME=forcelate-upsource
+APP_NAME=tech1-upsource
 
 docker volume create upsource_data
 docker volume create upsource_conf
@@ -16,4 +16,4 @@ docker run -d --rm --name ${APP_NAME} \
     jetbrains/upsource:2018.1.584
 
 # Wizard Key (Upsource Setup)
-# docker cp forcelate-upsource:/opt/upsource/conf/internal/services/configurationWizard/wizard_token.txt /Users/yuriiluchkiv/Downloads
+# docker cp tech1-upsource:/opt/upsource/conf/internal/services/configurationWizard/wizard_token.txt /Users/yuriiluchkiv/Downloads

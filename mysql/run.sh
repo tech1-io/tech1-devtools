@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-APP_NAME=forcelate-mysql
+APP_NAME=tech1-mysql
 TAG=5.7.24
 MYSQL_ROOT_PASSWORD=root
 

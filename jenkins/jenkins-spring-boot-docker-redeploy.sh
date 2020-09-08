@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-COMPANY=forcelate
+COMPANY=tech1
 APP=spring-boot-server
 TAG=latest
 SPRING_BOOT_PROFILE=prod

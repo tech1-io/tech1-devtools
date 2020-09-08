@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-APP_NAME=forcelate-postgresql
+APP_NAME=tech1-postgresql
 TAG=10
 POSTGRES_PASSWORD=postgres
 
