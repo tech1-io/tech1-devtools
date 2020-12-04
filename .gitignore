@@ -8,4 +8,5 @@
 
 # Docker Volumes
 mongodb/volume-mongodb/
+influxdb/volume-influxdb/
 postgresql/mdillion/volume-postgresql
