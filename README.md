@@ -9,3 +9,4 @@ DevTools, Scripts, Docker etc.
 * PostgreSQL => 5432
 * Sonarqube => 9000 (sonarqube, postgres)
 * Upsource => 8080
+
